@@ -10,7 +10,4 @@ import { CartComponent } from '../cart/cart.component';
   styleUrl: './items.component.css'
 })
 export class ItemsComponent {
-  @Input() category:String = "";
-  @Input() title:String = "";
-  @Input() price:String = "";
 }
