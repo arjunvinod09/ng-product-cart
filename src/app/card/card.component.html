@@ -1,0 +1,12 @@
+<div class="card">
+    <div class="individual-card-design">
+        @for(cards of card; track $index) {
+            <div class="card-item">
+                <img class="margin product-image" src="{{cards.image.desktop}}" alt="">
+                <div class="margin category">{{cards.category}}</div>
+                <div class="margin title">{{cards.name}}</div>
+                <div class="margin price">${{cards.price}}</div>
+            </div>
+        }
+    </div>
+</div>
